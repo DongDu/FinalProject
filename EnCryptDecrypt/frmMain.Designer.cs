@@ -38,6 +38,8 @@ namespace EnCryptDecrypt
             this.label3 = new System.Windows.Forms.Label();
             this.txtDecryptedText = new System.Windows.Forms.TextBox();
             this.error = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,8 +66,8 @@ namespace EnCryptDecrypt
             // 
             // txtClearText
             // 
-            this.txtClearText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtClearText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtClearText.Location = new System.Drawing.Point(94, 21);
             this.txtClearText.Name = "txtClearText";
             this.txtClearText.Size = new System.Drawing.Size(211, 20);
@@ -73,8 +75,8 @@ namespace EnCryptDecrypt
             // 
             // txtCipherText
             // 
-            this.txtCipherText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCipherText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCipherText.Location = new System.Drawing.Point(94, 55);
             this.txtCipherText.Name = "txtCipherText";
             this.txtCipherText.ReadOnly = true;
@@ -90,6 +92,7 @@ namespace EnCryptDecrypt
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Clear Text";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -112,8 +115,8 @@ namespace EnCryptDecrypt
             // 
             // txtDecryptedText
             // 
-            this.txtDecryptedText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDecryptedText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDecryptedText.Location = new System.Drawing.Point(94, 90);
             this.txtDecryptedText.Name = "txtDecryptedText";
             this.txtDecryptedText.ReadOnly = true;
@@ -126,11 +129,32 @@ namespace EnCryptDecrypt
             // 
             this.error.ContainerControl = this;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(14, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(206, 166);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Exit";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(309, 201);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtDecryptedText);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -158,6 +182,8 @@ namespace EnCryptDecrypt
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtDecryptedText;
         private System.Windows.Forms.ErrorProvider error;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
