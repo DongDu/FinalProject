@@ -1,1 +1,10 @@
 C:\Users\354399\Downloads\Cryptography_src\EnCryptDecrypt\EnCryptDecrypt\bin\Debug\EnCryptDecrypt.exe.config
+D:\Workspace\trunk\EnCryptDecrypt\bin\Debug\EnCryptDecrypt.exe.config
+D:\Workspace\trunk\EnCryptDecrypt\bin\Debug\EnCryptDecrypt.exe
+D:\Workspace\trunk\EnCryptDecrypt\bin\Debug\EnCryptDecrypt.pdb
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.csprojResolveAssemblyReference.cache
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.frmMain.resources
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.Properties.Resources.resources
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.csproj.GenerateResource.Cache
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.exe
+D:\Workspace\trunk\EnCryptDecrypt\obj\Debug\EnCryptDecrypt.pdb
