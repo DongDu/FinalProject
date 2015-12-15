@@ -41,5 +41,10 @@ namespace EnCryptDecrypt
             txtDecryptedText.Visible = true;
             label3.Visible = true;            
         }
+
+        private void button1_Click( object sender, EventArgs e )
+        {
+
+        }
     }
 }
